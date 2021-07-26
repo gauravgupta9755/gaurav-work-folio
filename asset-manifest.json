@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/gaurav-work-folio/static/css/main.baabba27.chunk.css",
+    "main.js": "/gaurav-work-folio/static/js/main.a3971f7e.chunk.js",
+    "main.js.map": "/gaurav-work-folio/static/js/main.a3971f7e.chunk.js.map",
+    "runtime-main.js": "/gaurav-work-folio/static/js/runtime-main.56885d70.js",
+    "runtime-main.js.map": "/gaurav-work-folio/static/js/runtime-main.56885d70.js.map",
+    "static/js/2.0d6b16eb.chunk.js": "/gaurav-work-folio/static/js/2.0d6b16eb.chunk.js",
+    "static/js/2.0d6b16eb.chunk.js.map": "/gaurav-work-folio/static/js/2.0d6b16eb.chunk.js.map",
+    "static/js/3.e83cb0f8.chunk.js": "/gaurav-work-folio/static/js/3.e83cb0f8.chunk.js",
+    "static/js/3.e83cb0f8.chunk.js.map": "/gaurav-work-folio/static/js/3.e83cb0f8.chunk.js.map",
+    "index.html": "/gaurav-work-folio/index.html",
+    "static/css/main.baabba27.chunk.css.map": "/gaurav-work-folio/static/css/main.baabba27.chunk.css.map",
+    "static/js/2.0d6b16eb.chunk.js.LICENSE.txt": "/gaurav-work-folio/static/js/2.0d6b16eb.chunk.js.LICENSE.txt",
+    "static/media/Work.89bd04a2.jpg": "/gaurav-work-folio/static/media/Work.89bd04a2.jpg",
+    "static/media/about.59a7ac78.png": "/gaurav-work-folio/static/media/about.59a7ac78.png",
+    "static/media/backimg.10af3dd3.jpg": "/gaurav-work-folio/static/media/backimg.10af3dd3.jpg",
+    "static/media/blackMan.5469e47d.png": "/gaurav-work-folio/static/media/blackMan.5469e47d.png",
+    "static/media/box.639f99b3.jpg": "/gaurav-work-folio/static/media/box.639f99b3.jpg",
+    "static/media/frontend.e0483dd0.png": "/gaurav-work-folio/static/media/frontend.e0483dd0.png",
+    "static/media/frontimg.d36f5c92.jpg": "/gaurav-work-folio/static/media/frontimg.d36f5c92.jpg",
+    "static/media/grad.54da2131.jpg": "/gaurav-work-folio/static/media/grad.54da2131.jpg",
+    "static/media/imgresume.f89223d6.jpg": "/gaurav-work-folio/static/media/imgresume.f89223d6.jpg",
+    "static/media/man_with_football.aeeac519.png": "/gaurav-work-folio/static/media/man_with_football.aeeac519.png",
+    "static/media/randomquotes.0c430ec5.jpg": "/gaurav-work-folio/static/media/randomquotes.0c430ec5.jpg",
+    "static/media/resume.d81abb5a.png": "/gaurav-work-folio/static/media/resume.d81abb5a.png",
+    "static/media/resumepdf.e29957ad.pdf": "/gaurav-work-folio/static/media/resumepdf.e29957ad.pdf",
+    "static/media/weather.4342d46c.jpg": "/gaurav-work-folio/static/media/weather.4342d46c.jpg",
+    "static/media/work.8375aa01.png": "/gaurav-work-folio/static/media/work.8375aa01.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56885d70.js",
+    "static/js/2.0d6b16eb.chunk.js",
+    "static/css/main.baabba27.chunk.css",
+    "static/js/main.a3971f7e.chunk.js"
+  ]
+}

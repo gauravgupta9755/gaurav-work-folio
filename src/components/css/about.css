@@ -1,0 +1,36 @@
+.about_contenar{
+width: 90%;
+background-color: gray;
+margin: auto;
+text-align: center;
+padding-bottom: 30px;
+box-shadow: 2px 2px 20px rgb(59, 172, 228);
+border-radius: 40px;
+}
+.about_contenar h1{
+    margin: 20px;
+    color:white;
+}
+.about_contenar table{
+    margin: auto;
+    width: 90%;
+    text-align: left;
+    row-gap: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:honeydew;
+   
+
+}
+.about_contenar table tr{
+    margin-top: 60px;
+    width: 10%;
+    background-color: rgb(59, 172, 228);
+   
+    
+}
+.about_contenar table td{
+    margin: 50px;
+  padding: 20px;
+  border-radius: 30px;
+}

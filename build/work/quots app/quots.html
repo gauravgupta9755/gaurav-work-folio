@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quots</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            position: relative;
+            text-align: center;
+            background-color:rgb(137, 106, 168);
+            font-family: 'Dancing Script', cursive;
+         
+            
+        }
+        .contenar{
+            position: relative;
+            width: 40%;
+            
+            margin: auto;
+            background-color: rgb(37, 152, 247);
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 10px black;
+            justify-items: center;
+            align-content: center;
+            align-items: center;
+            margin-top: 10%;
+            margin-bottom: 100px;
+           
+
+           
+            
+        }
+        .social_link{
+           
+            align-items: center;
+            justify-content: center;
+           opacity: 0.8;
+            margin-bottom: 20px;
+            padding: 10px;
+            text-align: left;
+        
+        }
+        .social_link img{
+            width: 50px;
+        }
+        .content_contenar{
+            font-size: 3rem;
+            margin-bottom: 20px;
+            
+        }
+        .content_contenar p{
+            text-align: center;
+            color: white;
+            opacity: 0.8;
+        }
+        .content_contenar img{
+            width: 5vw;
+        }
+        footer{
+            font-size: 1.6rem;
+            text-align: right;
+            color: white;
+            margin: 30px;
+        }
+        button{
+            width: fit-content;
+            padding: 10px;
+            outline: navajowhite;
+            background-color: gray;
+            color: white;
+
+        }
+        span{
+            color: rgb(9, 252, 9);
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        .next_quots{
+            margin-top: 30px;
+        }
+        @media only screen and (max-width: 1000px){
+            .contenar{ width: 95%;}
+
+        }
+            
+        
+    </style>
+</head>
+<body>
+<div class="contenar">
+    <div class="social_link"><img id="tweet" src="./image/Twitter-Emblem.png" alt=""></div>
+    <div class="content_contenar">
+        <img src="./image/qouts_open.png" alt="">
+        <p id="para">moving is the key of the sucess.
+            so always move.
+        </p>
+        <footer>
+            <div class="writer_name">
+                By 🖊️<span id="author_name"> "gaurav gupta" </span>🖊️
+            </div>
+        </footer>
+    </div>
+    <div class="next_quots">
+        <button onclick="getquots();">New Quots</button>
+    </div>
+</div>
+
+
+
+
+<script>
+    
+   const para = document.querySelector("#para");
+   const author_name = document.querySelector("#author_name");
+  console.log(para.textContent);
+  const getquots= async ()=>{
+      
+      const api=`https://favqs.com/api/qotd`;
+      try{
+         let data=await fetch(api);
+         let real_data=await data.json();
+         console.log(real_data.quote.author);
+         const text = real_data.quote.body;
+         const author=real_data.quote.author;
+
+         para.innerHTML=text;
+         author_name.innerHTML=author;
+         
+      }
+      catch(err){
+
+      }
+  }
+  getquots();
+  const tweetNow=()=>{
+    window.open(`https://web.whatsapp.com://send?text= ${para.textContent}`);  
+  }
+
+  const tweet=document.querySelector("#tweet");
+  tweet.addEventListener("click",tweetNow);
+</script>
+    
+</body>
+</html>

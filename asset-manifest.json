@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gaurav-work-folio/static/css/main.baabba27.chunk.css",
-    "main.js": "/gaurav-work-folio/static/js/main.a3971f7e.chunk.js",
-    "main.js.map": "/gaurav-work-folio/static/js/main.a3971f7e.chunk.js.map",
+    "main.js": "/gaurav-work-folio/static/js/main.b5c90c5c.chunk.js",
+    "main.js.map": "/gaurav-work-folio/static/js/main.b5c90c5c.chunk.js.map",
     "runtime-main.js": "/gaurav-work-folio/static/js/runtime-main.56885d70.js",
     "runtime-main.js.map": "/gaurav-work-folio/static/js/runtime-main.56885d70.js.map",
     "static/js/2.0d6b16eb.chunk.js": "/gaurav-work-folio/static/js/2.0d6b16eb.chunk.js",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.56885d70.js",
     "static/js/2.0d6b16eb.chunk.js",
     "static/css/main.baabba27.chunk.css",
-    "static/js/main.a3971f7e.chunk.js"
+    "static/js/main.b5c90c5c.chunk.js"
   ]
 }
